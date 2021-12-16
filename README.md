@@ -9,8 +9,9 @@ My homework for COMP331/557 Optimisation. <br />
 # File description
 Basically, if anyone wants to run my codes, you need to put these files/directories in the same directory (or you can change my codes).
 ### p1.py
-The main program, used to output n lp files that can be run by simple GLPK and call them on the command line. 
-By my own standards, this code is not elegant, but it is sufficient for a deadline with a time limit.
+The main program, used to output n lp files that can be run by simple GLPK and call them on the command line. <br />
+By my own standards, this code is not elegant, but it is sufficient for a deadline with a time limit.<br />
+In order to avoid academic problems, temporarily delete it. I will upload it again next semester.
 ### p2.py
 The supplementary program, just output all 531,441 possibilities into a csv file.
 ### cases.csv
