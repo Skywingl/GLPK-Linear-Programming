@@ -1,17 +1,17 @@
 # GLPK-Linear-Programming
 My homework for COMP331/557 Optimisation. <br />
-(Don’t worry about academic issues, the assignments are different every year)
+p1.py is the core part of this project. It can automatically output the lp file for solving the linear programming problem and automatically call the GLPK solution according to the characteristics of each point and edge of the Frucht graph and other requirements in the background. A corresponding lp file and output file are generated for each possibility.<br />
 
 # Table of Contents
 + [File description](#Filedescription)
 + [Background](#Background)
 + [Comment](#Comment)
+
 # File description
-Basically, if anyone wants to run my codes, you need to put these files/directories in the same directory (or you can change my codes).
+Need to put these files/directories in the same directory.
 ### p1.py
 The main program, used to output n lp files that can be run by simple GLPK and call them on the command line. <br />
 By my own standards, this code is not elegant, but it is sufficient for a deadline with a time limit.<br />
-In order to avoid academic problems, temporarily delete it. I will upload it again next semester.
 ### p2.py
 The supplementary program, just output all 531,441 possibilities into a csv file.
 ### cases.csv
@@ -39,5 +39,4 @@ Resources cannot be carried forward across the year. The quarries and factories 
 The operating efficiency of quarries and factories can be less than 100%. Their input, output, and energy use decline linearly.
 
 # Comment
-I only upload the lp and output documents numbered 332052 in related directories, because the 332052th combination is the optimal result. Also, it can be viewed as an example.<br />
-By the way, this is the first time I uploaded my code and related files on GitHub. Maybe there are some irregularities. I'm sorry for that.:disappointed_relieved:	
+I only upload the lp and output documents numbered 332052 in related directories, because the 332052th combination is the optimal result. Also, it can be viewed as an output example.<br />
